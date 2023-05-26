@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "449125174211",
+    "project_id": "my-ppam",
+    "storage_bucket": "my-ppam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449125174211:android:c164da3032eb41fc318b76",
+        "android_client_info": {
+          "package_name": "com.vito.ppam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449125174211-vukj2fbjgfui34louk1as9jmiajvtce5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwm5atGLdjSIEx9Z1JFn7Yr4gx6UAJhpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449125174211-vukj2fbjgfui34louk1as9jmiajvtce5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

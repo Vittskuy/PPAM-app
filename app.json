@@ -15,9 +15,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.vito.ppam",
+      "googleServicesFile": "./google-services/GoogleService-Info.plist",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.vito.ppam",
+      "googleServicesFile": "./google-services/google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +29,22 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7b895524-d339-45b1-9480-f6d776cc4466"
+      }
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
   }
 }
